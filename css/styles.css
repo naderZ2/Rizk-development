@@ -12,7 +12,7 @@ body, html {
   .hero {
     position: relative;
     height: 100vh;
-    background-image: url('../assets/images/Background_Image.jpeg');
+    background-image: url('../assets/images/Background_Image.jpeg')  !important ;
     background-size: cover;
     background-position: center;
     
@@ -124,13 +124,13 @@ body, html {
 
     .whatsapp_logo img {
       width: 138px !important;
-      margin-bottom: 60px !important;
+      margin-bottom: 68px !important;
       margin-left: 24px !important;
     }
 
     .call_now img {
       width: 135px !important;
-      margin-bottom: 59px !important;
+      margin-bottom: 67px !important;
       margin-right: 20px !important;
     }
     .social-links {
