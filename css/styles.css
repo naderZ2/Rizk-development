@@ -74,7 +74,7 @@ body, html {
     width: 50%;
     animation: logo 2s linear infinite;
 /*     animation-iteration-count: 1;  */
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 5s ease-in-out;
   }
   
   /* Call to Action */
