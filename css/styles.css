@@ -114,6 +114,7 @@ body, html {
   }
   
   /* Responsive Design */
+   /* Responsive Design */
   @media (max-width: 575.98px) { 
 
     .logo img {
@@ -123,20 +124,20 @@ body, html {
 
     .whatsapp_logo img {
       width: 138px !important;
-      margin-bottom: 51px !important;
+      margin-bottom: 60px !important;
       margin-left: 24px !important;
     }
 
     .call_now img {
       width: 135px !important;
-      margin-bottom: 50px !important;
+      margin-bottom: 59px !important;
       margin-right: 20px !important;
     }
     .social-links {
       transform: translate(-50%, -50%) !important;
       left: 50% !important;
       margin: auto;
-      bottom: -137px;
+      bottom: -120px;
       right: -88px;
       display: flex;
       flex-direction: row;
