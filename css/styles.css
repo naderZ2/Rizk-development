@@ -72,9 +72,9 @@ body, html {
   .logo img {
     max-width: 800px;
     width: 50%;
-    animation: logo 2s linear infinite;
-/*     animation-iteration-count: 1;  */
+/*     animation: logo 2s linear infinite; */
     animation: fadeIn 5s ease-in-out;
+    animation-iteration-count: 1; 
   }
   
   /* Call to Action */
