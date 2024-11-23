@@ -12,7 +12,7 @@ body, html {
   .hero {
     position: relative;
     height: 100vh;
-    background-image: url('../assets/images/Background_Image.jpeg')  !important ;
+    background-image: url('../assets/images/Background_Image.jpeg');
     background-size: cover;
     background-position: center;
     
@@ -40,10 +40,10 @@ body, html {
   bottom: 0;
   left:  0;
 }
-.whatsapp_logo img{
+.whatsapp_logo a img{
     animation: fadeIn 2.5s ease-in-out;
-    margin-left: 50px;
     margin-bottom: 70px;
+    margin-left: 50px;
     width: 220px;
 }
 
@@ -72,9 +72,9 @@ body, html {
   .logo img {
     max-width: 800px;
     width: 50%;
-/*     animation: logo 2s linear infinite; */
-    animation: fadeIn 3s ease-in-out;
+    /* animation: logo 2s linear infinite; */
     animation-iteration-count: 1; 
+    animation: fadeIn 2s ease-in-out;
   }
   
   /* Call to Action */
@@ -114,23 +114,22 @@ body, html {
   }
   
   /* Responsive Design */
-   /* Responsive Design */
   @media (max-width: 575.98px) { 
 
     .logo img {
-      transform: translateY(-66%);
-      width: 140px;
+      transform: translateY(-100%);
+      width: 200px;
     }
 
     .whatsapp_logo img {
       width: 138px !important;
-      margin-bottom: 75px !important;
+      margin-bottom: 60px !important;
       margin-left: 24px !important;
     }
 
     .call_now img {
       width: 135px !important;
-      margin-bottom: 74px !important;
+      margin-bottom: 59px !important;
       margin-right: 20px !important;
     }
     .social-links {
@@ -139,7 +138,8 @@ body, html {
       margin: auto;
       bottom: -120px;
       right: -88px;
-     
+      display: flex;
+      /* flex-direction: row; */
       gap: 8px;
       align-items: flex-end;
       justify-content: center;
