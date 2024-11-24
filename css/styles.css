@@ -116,20 +116,26 @@ body, html {
   /* Responsive Design */
   @media (max-width: 575.98px) { 
 
+
+    .left_logo img{
+  
+      max-width: 106px;
+  }
+
     .logo img {
-      transform: translateY(-100%);
+      transform: translateY(45%) !important;
       width: 200px;
     }
 
     .whatsapp_logo img {
       width: 138px !important;
-      margin-bottom: 60px !important;
+      margin-bottom: 94px !important;
       margin-left: 24px !important;
     }
 
     .call_now img {
       width: 135px !important;
-      margin-bottom: 59px !important;
+      margin-bottom: 90px !important;
       margin-right: 20px !important;
     }
     .social-links {
